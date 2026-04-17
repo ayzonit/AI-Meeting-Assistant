@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, Text, ForeignKey
-from app.core.database import Base
+from app.core.db import Base
 
 class Summary(Base):
     __tablename__ = "summaries"

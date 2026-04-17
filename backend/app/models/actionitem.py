@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String, ForeignKey
-from app.core.database import Base
+from app.core.db import Base
 
 class ActionItem(Base):
     __tablename__ = "action_items"
